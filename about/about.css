@@ -1,0 +1,438 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navigation bar */
+nav{
+    padding: 2vh 10vw 3vh 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B3764;
+}
+.logo{
+    display: flex;
+    gap:0.8vw;
+}
+.logo h1{
+    color: white;
+}
+.items button{
+    background-color: #FFCA42;
+    color: #1B3764;
+    padding: 15px 30px 15px 30px;
+    border: none;
+}
+.items{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    font-size: 1.4rem;
+}
+.items a,i{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* hero section */
+
+.hero{
+    font-size: 1.3rem;
+    background-color: #1B3764;
+    padding: 10vh 10vw 15vh 10vw;
+}
+.hero h1{
+    color: white;
+    text-align: center;
+}
+.hero hr{
+    border: 2px solid #FFCA42;
+    width: 3vw;
+    position: relative;
+    left:39vw;
+}
+.hero p{
+    color: #B4C7E7;
+    text-align: center;
+}
+
+
+/* author img */
+.author{
+    padding: 2vh 10vw 3vh 10vw;
+    margin-top: 10vh;
+    background-color:#f1f6fd ;
+    
+}
+.author img{
+    width: 1290px;
+    height: 700px;
+    position: relative;
+    right:39px;
+}
+
+
+/* about author */
+
+
+.aboutauthor{
+    padding: 0vh 10vw 3vh 10vw;
+    display: flex;
+    justify-content: space-between;
+    gap:10vw;
+    background-color: #f1f6fd;
+
+    
+}
+.location{
+    padding: 2vw;
+    display: flex;
+    background-color: white;
+    width: 300vw;
+}
+.qus{
+    display: flex;
+    flex-direction: column;
+    gap:1.5vh;
+    margin-right: 1vw;
+
+}
+.ans{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    color:#969AA0;
+}
+.icons i{
+    /* color: #1B3764; */
+    color: #FFF;
+}
+.icons{
+    display: flex;
+    gap:1vw;
+}
+
+/* author information */
+
+.authorinfo{
+    width: 700vw;
+}
+.authorinfo h1{
+    color: #1B3764;
+    font-size: 2rem;
+    margin-bottom: 2vh;
+}
+.authorinfo p{
+    color: #969AA0;
+}
+.authorinfo hr{
+    border: 2px solid #FFCA42;
+    width: 3vw;
+    position: relative;
+    margin-bottom: 5vh;
+    /* left:39vw; */
+}
+.authorinfo button{
+    
+        background-color: #FFCA42;
+        color: #1B3764;
+        padding: 15px 30px 15px 30px;
+        border: none;
+        margin-top: 5vh;
+}
+
+
+
+/* my story */
+.story{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 10vw 3vh 10vw;
+    gap:8vw;
+
+}
+.storyinfo{
+    margin-top: 5vh;
+}
+.story hr{
+    border: 2px solid #FFCA42;
+    width: 3vw;
+    margin-top: 2vh;
+    position: relative;
+    /* left:39vw; */
+}
+.story p{
+    color: #969AA0;
+    margin-top: 4vh;
+}
+.boxs{
+    /* margin-top: 2vh; */
+    display: flex;
+    flex-direction: column;
+    gap:4vh;
+}
+.box1,.box2,.box3{
+    height:65px;
+    width:65px;
+    background-color: #FFCA42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nums{
+    display: flex;
+    margin-top: 5vh;
+    gap:2vw
+}
+
+.boxcontent p{
+    margin-top: 1vh;
+}
+.boxcontent{
+    display: flex;
+    flex-direction: column;
+    gap:3vh;
+}
+
+/* thinking img */
+
+.thinkingimg img{
+    height:550px;
+    width: 500px;
+}
+
+
+/* book front page*/
+.book{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 12vw 3vh 8vw;
+    gap:5vw;
+    background-color: #F5F8FC;
+}
+.book h3,h1{
+    color: #1B3764;
+}
+.atomic{
+    display: flex;
+    /* gap:2vw; */
+}
+.atomic-content{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+    margin-top: 3vh;
+}
+.atomic-content h2{
+    color: #1B3764;
+}
+.atomic-content p{
+    color: #969AA0;
+}
+.dark-light{
+    display: flex;
+    /* gap:2vw; */
+}
+.border{
+    background-color: #FFCA42;
+    border: 1px solid #FFCA42;
+    height: 2vh;
+    width: 1vw;
+    border-radius: 50%;
+}
+.circle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.border1{
+    display: flex;
+    align-items: center;
+    gap:1vw;
+}
+.border2{
+    display: flex;
+    align-items: center;
+    gap:1vw;
+}
+.pages{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 1vw;
+}
+.book img{
+    height:400px;
+}
+.book button{
+    border: 1px solid #FFCA42;
+    background-color: white;
+    height: 8vh;
+    width: 10vw;
+    margin-top: 2vh;
+}
+
+
+/* trusted company */
+
+.hero3{
+    /* border:1px solid black; */
+    height: 70vh;
+    text-align: center;
+    padding: 10vh 10vw 3vh 10vw;
+    
+}
+.hero3 span{
+    text-decoration: underline;
+    text-decoration-color:#FFCA42;
+    text-underline-offset: 3vh;
+}
+.hero3 h1{
+    font-size: 3rem;
+    color: #1B3764;
+}
+.company{
+    display: flex;
+    margin-top: 12vh;
+    gap:2vw;
+}
+.company img{
+    height:100px;
+    width: 110px;
+}
+.company h2{
+    color: #1B3764;
+    margin-top: 2vh;
+}
+.company p{
+    color: #969AA0;
+    margin-top: 1vh;
+}
+
+
+/* read a free chapter */
+
+.hero9{
+    padding: 10vh 10vw 8vh 10vw ;
+    text-align: center;
+    
+
+}
+.content11{
+    background-color: #FFCA42;
+    display: flex;
+    flex-direction: column;
+    gap:3vh;
+    padding:  10vh;
+}
+.hero9 h1{
+    font-size: 3rem;
+    color: #1B3764;
+
+}
+.hero9 hr{
+    border: 2px solid #1B3764;
+    width: 3vw;
+    position: relative;
+    left:34vw;
+   
+}
+.hero9 p{
+    color: #1B3764;
+    font-size: 1.3rem;
+}
+.form{
+    display: flex;
+    gap:1vw;
+    margin-left: 10vw;
+}
+input{
+    height: 8vh;
+    width: 32vw;
+    padding: 2vw;
+}
+.hero9 button{
+    color: white;
+    background-color: #1B3764;
+    width: 18vw;
+}
+
+
+/* footer */
+
+.footer{
+    background-color: #1B3764;
+    padding: 10vh 10vw 2vh 10vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer h1{
+    color: white;
+}
+.footerlogo{
+    display: flex;
+    gap:1vw;
+    align-items: center ;
+}
+.footericons{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    margin-top: 5vh;
+    gap:1vw;
+}
+.links{
+    /* background-color: white; */
+    ;
+}
+.icons div{
+        border: 1px solid #FFCA42;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.border9{
+
+    background-color: #FFCA42;
+    border: 1px solid #FFCA42;
+    height: 1vh;
+    width: 0.5vw;
+    border-radius: 50%;
+}
+
+.border8{
+    display: flex;
+    gap:0.2vw;
+    margin-top: 2vh;
+    align-items: center;
+    
+}
+.footer h2{
+    color: white;
+}
+.explore a{
+    color: #B4C7E7;
+    margin-left: 0.5vw;
+    text-decoration: none;
+}
+
+.footer h3{
+    color: white;
+}
+.footer p{
+    color: #969AA0;
+}
+.address{
+    display: flex;
+    gap:1vw;
+}
+
+
